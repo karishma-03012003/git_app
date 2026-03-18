@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/git_app">
       <div className="app-container">
         <div className="mobile-frame">
           <Routes>
