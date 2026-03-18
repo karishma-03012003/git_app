@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import WelcomeScreen from './components/WelcomeScreen';
 import LoginScreen from './components/LoginScreen';
 import RegisterScreen from './components/RegisterScreen';
@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename="/git_app">
+    <Router>
       <div className="app-container">
         <div className="mobile-frame">
           <Routes>
